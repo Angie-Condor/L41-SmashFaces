@@ -1,0 +1,30 @@
+/*
+*/
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px auto;
+  max-width: 800px;
+}
+.rokkitt{
+  font-family: 'Rokkitt', serif;
+}
+.roboto{
+  font-family: 'Roboto', sans-serif;
+}
+hr{
+  width: 30px;
+  height: 5px;
+  background-color: #000;
+}
+.content-game{
+  display: block;
+  margin: 40px auto;
+}
