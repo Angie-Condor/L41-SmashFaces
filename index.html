@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Rokkitt:700" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>Smash Faces | Lección 41</title>
   </head>
@@ -16,31 +17,32 @@
         identificar a todas tus compañeras de clase ingresando para ello su nombre.
         Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
     </header>
-    <section>
-      <div class="rokkitt">
+    <section class="container-fluid">
+      <div class="row rokkitt">
         <label for="elige">Elige tu sede</label>
         <select class="roboto" id="">
           <option hidden="" >Sede</option>
           <option value="peru">Perú</option>
           <option value="mexico">México</option>
         </select>
-        <label for="">Puntos: <span id="score">0</span> puntos</label>
+        <label for="" class="float-right">Puntos: <span id="score">0</span> puntos</label>
       </div>
-      <div  class="box-img-game">
-        <div>
+      <div  class=" row box-img-game">
+        <div class="col-xs-5 no-pad">
           <img src="" alt="">
         </div>
-        <div class="content-game rokkitt">
+        <div class="col-xs-7 content-game rokkitt">
           <p>Ingrese su nombre:</p>
-          <form action="">
-            <input type="text" class="roboto">
-            <button type="button" name="button" class="roboto">Comprobar</button>
+          <form action="" class="text-center">
+            <input type="text" class="roboto" placeholder="Nombre">
+            <button type="button" name="button" class="roboto">COMPROBAR</button>
           </form>
-          <p class="msj"></p>
+          <p class="msj text-center"></p>
         </div>
       </div>
     </section>
     <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
     <script src="js/js-nombres/mexico.js" charset="utf-8"></script>
     <script src="js/js-nombres/peru.js" charset="utf-8"></script>
     <script type="text/javascript" src="js/main.js"></script>
