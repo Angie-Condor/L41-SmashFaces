@@ -16,30 +16,33 @@
         identificar a todas tus compañeras de clase ingresando para ello su nombre.
         Tienes 5 oportunidades antes de perder 1 punto y pasar a la siguiente.</p>
     </header>
-    <section class="content-game">
-      <div>
-        <label for="">Elige tu sede</label>
-        <select name="" id="">
+    <section>
+      <div class="rokkitt">
+        <label for="elige">Elige tu sede</label>
+        <select class="roboto" id="">
+          <option hidden="" >Sede</option>
           <option value="peru">Perú</option>
           <option value="mexico">México</option>
         </select>
         <label for="">Puntos: <span id="score">0</span> puntos</label>
       </div>
-      <div>
+      <div  class="box-img-game">
         <div>
           <img src="" alt="">
         </div>
-        <div>
-          <p>Ingrese su nombre</p>
-          <input type="text">
-          <button type="button" name="button">Comprobar</button>
-          <span class="msj"></span>
+        <div class="content-game rokkitt">
+          <p>Ingrese su nombre:</p>
+          <form action="">
+            <input type="text" class="roboto">
+            <button type="button" name="button" class="roboto">Comprobar</button>
+          </form>
+          <p class="msj"></p>
         </div>
       </div>
     </section>
-    <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/vendor/jquery-3.2.1.min.js"></script>
     <script src="js/js-nombres/mexico.js" charset="utf-8"></script>
     <script src="js/js-nombres/peru.js" charset="utf-8"></script>
-    <script type="text/javascript" src="assets/js/main.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

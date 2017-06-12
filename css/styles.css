@@ -1,15 +1,9 @@
-/*
-*/
-
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 body{
-  display: flex;
-  justify-content: center;
-  align-items: center;
   margin: 40px auto;
   max-width: 800px;
 }
@@ -24,7 +18,21 @@ hr{
   height: 5px;
   background-color: #000;
 }
-.content-game{
+/*.content-game{
   display: block;
   margin: 40px auto;
+}*/
+img{
+  width: 350px;
+  height: 300px;
+}
+.content-game{
+	background-color: #333333;
+	color: white;
+	padding: 4rem;
+}
+.box-img-game{
+  display: flex;
+  /*justify-content: center;*/
+  align-items: center;
 }
